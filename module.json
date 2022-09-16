@@ -9,14 +9,14 @@
 	"esmodules": [
 	"./scripts/cise.js"
 	],
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"compatibility": {
 		"minimum": "9",
 		"verified": "10"
 	},
 	"url": "https://github.com/TheSchnucki/cise",
-	"manifest": "https://github.com/TheSchnucki/cise/releases/download/0.0.2/module.json",
-	"download": "https://github.com/TheSchnucki/cise/releases/download/0.0.2/cise.zip",
+	"manifest": "https://github.com/TheSchnucki/cise/releases/download/0.0.3/module.json",
+	"download": "https://github.com/TheSchnucki/cise/releases/download/0.0.3/cise.zip",
 	"license": "LICENSE",
 	"readme": "README.md"
 }
