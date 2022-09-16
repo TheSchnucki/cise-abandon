@@ -1,3 +1,4 @@
+/*
 import {DieSzimfonia} from './die.js';
 
 Hooks.once("init", async function () {
@@ -38,7 +39,7 @@ Hooks.on('diceSoNiceRollComplete', (chatMessageID) => {
                 });
             }
         });
-        
+
         if(szRoll){
             ChatMessage.create({
                 content: `<b>Defense:</b> ${defense}<br><b>Success:</b> ${success}<br><b>Focus:</b> ${focus}`,
@@ -48,27 +49,28 @@ Hooks.on('diceSoNiceRollComplete', (chatMessageID) => {
         }
     }
 });
+*/
 
 Hooks.once('diceSoNiceReady', (dice3d) => {
-    dice3d.addSystem({id:"szimfonia",name:"Szimfonia"},true);
+    dice3d.addSystem({id:"cise",name:"Cise"},true);
     dice3d.addDicePreset({
-      type:"ds",
+      type:"d6",
       labels:[
-        'modules/szimfonia-dice-roller/images/S1.png', 
-        'modules/szimfonia-dice-roller/images/S2.png', 
-        'modules/szimfonia-dice-roller/images/F1.png',
-		'modules/szimfonia-dice-roller/images/F2.png', 
-        'modules/szimfonia-dice-roller/images/D1_bg.png', 		
-        'modules/szimfonia-dice-roller/images/D1_bg.png'
+        'modules/cise/artwork/S1.png',
+        'modules/cise/artwork/S2.png', 
+        'modules/cise/artwork/F1.png',
+		    'modules/cise/artwork/F2.png',
+        'modules/cise/artwork/D1_bg.png',
+        'modules/cise/artwork/D1_bg.png'
       ],
       bumpMaps:[
-        'modules/szimfonia-dice-roller/images/S1_bump.png', 
-        'modules/szimfonia-dice-roller/images/S2_bump.png', 
-        'modules/szimfonia-dice-roller/images/F1_bump.png',
-        'modules/szimfonia-dice-roller/images/F2_bump.png',		
-        'modules/szimfonia-dice-roller/images/D1_bump.png',
-		'modules/szimfonia-dice-roller/images/D1_bump.png'
+        'modules/cise/artwork/S1_bump.png',
+        'modules/cise/artwork/S2_bump.png',
+        'modules/cise/artwork/F1_bump.png',
+        'modules/cise/artwork/F2_bump.png',
+        'modules/cise/artwork/D1_bump.png',
+		     'modules/cise/artwork/D1_bump.png'
       ],
-      system:"szimfonia"
+      system:"cise"
     });
 });
