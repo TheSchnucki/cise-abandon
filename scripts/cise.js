@@ -3,7 +3,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
     dice3d.addDicePreset({
       type:"d6",
       labels:[
-        'modules/cise/artwork/S1.png',
+        'modules/cise/artwork/S1.webp',
         'modules/cise/artwork/S2.png',
         'modules/cise/artwork/S3.png',
 		    'modules/cise/artwork/S4.png',
