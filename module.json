@@ -22,7 +22,7 @@
 	},
 
 	"scripts": [
-			"scripts/cise.json"
+			"scripts/cise.js"
 	],
 	"url": "https://github.com/TheSchnucki/cise",
 	"manifest": "https://github.com/TheSchnucki/cise/releases/download/0.0.7/module.json",
