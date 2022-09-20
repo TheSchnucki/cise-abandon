@@ -15,7 +15,7 @@
 				"name": "dice-so-nice"
 			}
 	],
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"compatibility": {
 		"minimum": "9",
 		"verified": "10"
@@ -25,8 +25,8 @@
 			"scripts/cise.js"
 	],
 	"url": "https://github.com/TheSchnucki/cise",
-	"manifest": "https://github.com/TheSchnucki/cise/releases/download/0.0.8/module.json",
-	"download": "https://github.com/TheSchnucki/cise/releases/download/0.0.8/cise.zip",
+	"manifest": "https://github.com/TheSchnucki/cise/releases/download/0.0.9/module.json",
+	"download": "https://github.com/TheSchnucki/cise/releases/download/0.0.9/cise.zip",
 	"license": "LICENSE",
 	"readme": "README.md"
 }
