@@ -6,9 +6,7 @@
 	"authors": [{
 	"name": "theSchnucki"
 	}],
-	"esmodules": [
-	"./scripts/cise.js"
-	],
+
 	"dependencies": [
 			{
 				"type": "module",
