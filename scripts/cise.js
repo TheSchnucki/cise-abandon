@@ -3,20 +3,20 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
     dice3d.addDicePreset({
       type:"d6",
       labels:[
-        'modules/cise/artwork/S1.webp',
-        'modules/cise/artwork/S2.png',
-        'modules/cise/artwork/S3.png',
-		    'modules/cise/artwork/S4.png',
-        'modules/cise/artwork/S5.png',
-        'modules/cise/artwork/S6.png'
+        'modules/cise/artwork/s1.webp',
+        'modules/cise/artwork/s2.png',
+        'modules/cise/artwork/s3.png',
+		    'modules/cise/artwork/s4.png',
+        'modules/cise/artwork/s5.png',
+        'modules/cise/artwork/s6.png'
       ],
       bumpMaps:[
-        'modules/cise/artwork/S1_bump.png',
-        'modules/cise/artwork/S2_bump.png',
-        'modules/cise/artwork/S3_bump.png',
-        'modules/cise/artwork/S4_bump.png',
-        'modules/cise/artwork/S5_bump.png',
-		    'modules/cise/artwork/S6_bump.png'
+        'modules/cise/artwork/s1_bump.png',
+        'modules/cise/artwork/s2_bump.png',
+        'modules/cise/artwork/s3_bump.png',
+        'modules/cise/artwork/s4_bump.png',
+        'modules/cise/artwork/s5_bump.png',
+		    'modules/cise/artwork/s6_bump.png'
       ],
       system:"cise"
     });
