@@ -3,7 +3,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
     dice3d.addDicePreset({
       type:"d6",
       labels:[
-        'modules/cise/artwork/s1.webp',
+        '1',
         'modules/cise/artwork/s2.png',
         'modules/cise/artwork/s3.png',
 		    'modules/cise/artwork/s4.png',
@@ -11,7 +11,7 @@ Hooks.once('diceSoNiceReady', (dice3d) => {
         'modules/cise/artwork/s6.png'
       ],
       bumpMaps:[
-        'modules/cise/artwork/s1_bump.png',
+        '1',
         'modules/cise/artwork/s2_bump.png',
         'modules/cise/artwork/s3_bump.png',
         'modules/cise/artwork/s4_bump.png',
